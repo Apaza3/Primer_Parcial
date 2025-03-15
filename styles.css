@@ -4,11 +4,13 @@ body {
     margin: 0;
     padding: 0;
 }
+
 .gameboard {
     width: 300px;
     margin: 50px auto;
     text-align: center;
 }
+
 .color {
     width: 100px;
     height: 100px;
@@ -16,6 +18,24 @@ body {
     margin: 10px;
     cursor: pointer;
 }
+
+/* Agregar colores a los divs */
+.celeste {
+    background-color: #00a8ff; /* Celeste */
+}
+
+.violeta {
+    background-color: #9c88ff; /* Violeta */
+}
+
+.naranja {
+    background-color: #ff9f43; /* Naranja */
+}
+
+.verde {
+    background-color: #4cd137; /* Verde */
+}
+
 .btn-start {
     margin-top: 20px;
     padding: 10px 20px;
